@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurants in Kreuzberg</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ 
+  </head>  
+
+  <body style="background-color: lightpink; color:black"; >
+    <h1>
+      In which neiborhood do you want to go for lunch ?
+    </h1>
+<form   action="/cgi-bin/database_connect.py" method="get">
+  <div>
+    <label for="Kreuzberg"><input id="Kreuzberg" type="checkbox" name="neighborhood" value="Kreuzberg"> Kreuzberg</label>
+    <label for="Neukoeln"><input id="neukoeln" type="checkbox" name="neighborhood" value="neukoeln"> Neuköln</label>
+    <label for="Mitte"><input id="mitte" type="checkbox" name="neighborhood" value="mitte"> Mitte</label>
+    
+    <button type="submit">Give me restaurants</button>
+
+  </div>
+
+</form>
+  </body>
+</html>
+
+
+
